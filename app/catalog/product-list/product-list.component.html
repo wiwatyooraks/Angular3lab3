@@ -1,0 +1,6 @@
+<app-product-item
+*ngFor="let p of products"
+[product]="p"
+class="T1"
+(OnSelected)="selectedProduct($event)"
+></app-product-item>
